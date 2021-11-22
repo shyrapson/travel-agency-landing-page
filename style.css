@@ -898,17 +898,17 @@ input::placeholder {
     position: relative;
     width: 350px;
     height: 300px;
-    margin-left: -46px;
+    margin-left: -33px;
   }
 
   .plane__1 {
     top: 15px;
-    left: 0px;
+    left: 12px;
     width: 100px;
   }
 
   .plane__2 {
-    right: -19px;
+    right: -9px;
     top: 1px;
     width: 100px;
   }
