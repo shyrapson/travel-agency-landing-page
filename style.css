@@ -520,7 +520,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 22px;
+  line-height: 20px;
   color: #5e6282;
 }
 .mikes__comments h5 {
@@ -538,7 +538,6 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 21px;
   color: #5e6282;
 }
 .chris {
@@ -875,7 +874,7 @@ input::placeholder {
 
   .play__btn {
     align-items: center;
-    margin-left: 5px;
+    margin-left: 20px;
     padding-top: 23px;
   }
 
@@ -888,8 +887,8 @@ input::placeholder {
 
   .play__btn img {
     margin-top: 0px;
-    width: 56px;
-    height: 56px;
+    width: 60px;
+    height: 60px;
   }
 
   /* lady parts */
@@ -902,7 +901,7 @@ input::placeholder {
   }
 
   .plane__1 {
-    top: 0px;
+    top: 15px;
     left: 0px;
     width: 100px;
   }
@@ -926,7 +925,6 @@ input::placeholder {
   }
 
   .category__items div {
-    height: 197px;
     margin-top: 30px;
   }
 
@@ -1020,6 +1018,7 @@ input::placeholder {
 
   .mikes__comments p {
     width: 234px;
+    margin-bottom: 15px;
   }
 
   .sponsors__icons {
@@ -1031,7 +1030,7 @@ input::placeholder {
     margin-bottom: 20px;
     height: 200px;
     width: 200px;
-    margin-left: 50px;
+    margin-left: 70px;
   }
 
   .sponsors__icons img {
@@ -1085,13 +1084,17 @@ input::placeholder {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 60px;
+    margin-top: 30px;
   }
-
+.jaddo {
+  margin-right: 30px;
+}
   .footer__items {
     justify-content: center;
     align-items: center;
     margin-top: 10px;
+    margin-left: 5px;
+    
   }
 
   .footer__items h1 {
@@ -1102,10 +1105,21 @@ input::placeholder {
   }
 
   .footer__items li {
-    font-size: 15px;
+    font-size: 14px;
     padding-bottom: 7px;
     line-height: 100.5%;
   }
+  .store{
+    margin-left: 5px;
+  }
+  .discoveries {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
 }
 .nav-active {
   transform: translateX(0%);
