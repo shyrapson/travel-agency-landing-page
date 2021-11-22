@@ -663,7 +663,7 @@ input::placeholder {
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
-  line-height: 66px;
+  line-height: 40px;
   color: #181e4b;
 }
 .jaddo p {
@@ -720,6 +720,7 @@ input::placeholder {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100px;
 }
 .social__handle {
   display: flex;
@@ -765,7 +766,7 @@ input::placeholder {
     overflow: hidden;
   }
 
-  /* resposive header, */
+  /* responsive header, */
 
   .navbar {
     background-color: #fdfbfb;
